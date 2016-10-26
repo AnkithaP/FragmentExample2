@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FragmentExample2</string>
+
+    <string-array name="titles">
+        <item>Starting an Activity</item>
+        <item>Pausing an Activity</item>
+        <item>Stopping an Activity</item>
+        <item>Recreating an Activity</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Unlike other programming paradigms in which apps are launched with a main method, the Android system initiates code in an Activity instance by invoking specific callback methods that correspond to specific stages of its lifecycle. There is a sequence of callback methods that start up an activity and a sequence of callback methods that tear down an activity.</item>
+        <item>During normal app use, the app sometimes loses focus, causing the activity to pause. For example, when apps run in multi-window mode, only one of the apps has the focus at any time, the system pauses all other apps. Similarly, when a semi-transparent activity opens such as one in the style of a dialog, the previous activity pauses. As long as the activity is still partially visible but currently not the activity in focus, it remains paused.</item>
+        <item>Properly stopping and restarting your activity is an important process in the activity lifecycle that ensures your users perceive that your app is always alive and doesnt lose their progress. There are a few of key scenarios in which your activity is stopped and restarted</item>
+        <item>There are a few scenarios in which your activity is destroyed due to normal app behavior, such as when the user presses the Back button or your activity signals its own destruction by calling finish. The system may also destroy your activity if its currently stopped and hasnt been used in a long time or the foreground activity requires more resources so the system must shut down background processes to recover memory.</item>
+    </string-array>
+</resources>

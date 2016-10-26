@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00"
+    android:weightSum="1">
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:name="com.aryaan.ankitha.fragmentexample2.FragmentA"
+        android:id="@+id/fragment3" />
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:name="com.aryaan.ankitha.fragmentexample2.FragmentB"
+        android:id="@+id/fragment4" />
+</LinearLayout>
